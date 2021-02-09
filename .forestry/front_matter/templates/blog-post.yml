@@ -29,6 +29,17 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: date_un
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  showOnly:
+    value: Allen Ginsberg
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
